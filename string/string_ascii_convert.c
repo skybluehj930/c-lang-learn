@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 int main() {
     char msg[16] = "Hello World!";
-    /* ´ë¼Ò¹®ÀÚ º¯È¯ */
+    /* ëŒ€ì†Œë¬¸ì ë³€í™˜ */
     int num = 32;
     for (int i = 0; i < strlen(msg); i++) {
         if (msg[i] >= 65 && msg[i] <= 90) msg[i] += num;

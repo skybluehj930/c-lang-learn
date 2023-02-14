@@ -1,8 +1,8 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 
 int main() {
     char msg[16] = "Hello World!";
-    /* ´ë¼Ò¹®ÀÚ º¯È¯ */
+    /* ëŒ€ì†Œë¬¸ì ë³€í™˜ */
     for (int i = -1; msg[++i] - 33;)msg[i] - 32 ? msg[i] ^= 32 : 0;
 
     puts(msg);
