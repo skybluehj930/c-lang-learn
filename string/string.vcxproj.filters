@@ -15,10 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="string_convert.c">
+    <ClCompile Include="string_ascii_convert.c">
       <Filter>리소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="string.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="string_bit_convert.c">
       <Filter>리소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
